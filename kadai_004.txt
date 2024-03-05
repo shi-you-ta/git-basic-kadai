@@ -1,0 +1,37 @@
+shota@LAPTOP-BJ50D7DB MINGW64 ~
+$ cd "C:\Users\shota\TEST"
+
+shota@LAPTOP-BJ50D7DB MINGW64 ~/TEST
+$ mkdir git_challenge
+
+shota@LAPTOP-BJ50D7DB MINGW64 ~/TEST
+$ cd "git_challenge"
+
+shota@LAPTOP-BJ50D7DB MINGW64 ~/TEST/git_challenge
+$ git init
+Initialized empty Git repository in C:/Users/shota/TEST/git_challenge/.git/
+
+shota@LAPTOP-BJ50D7DB MINGW64 ~/TEST/git_challenge (main)
+$ mkdir hello_world.txt
+
+shota@LAPTOP-BJ50D7DB MINGW64 ~/TEST/git_challenge (main)
+$ git add hello_world.txt
+
+shota@LAPTOP-BJ50D7DB MINGW64 ~/TEST/git_challenge (main)
+$ git commit -m "hello_world.txtを追加"
+[main (root-commit) 1dd7538] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+shota@LAPTOP-BJ50D7DB MINGW64 ~/TEST/git_challenge (main)
+$ git add hello_world.txt
+
+shota@LAPTOP-BJ50D7DB MINGW64 ~/TEST/git_challenge (main)
+$ git commit -m "日本語訳を追記"
+[main 2409198] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+shota@LAPTOP-BJ50D7DB MINGW64 ~/TEST/git_challenge (main)
+$ git log --oneline
+2409198 (HEAD -> main) 日本語訳を追記
+1dd7538 hello_world.txtを追加
